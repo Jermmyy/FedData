@@ -9,6 +9,12 @@
 
 #include "api/sofr_client.hpp"
 #include "panels/sofr_panel.hpp"
+#include "api/effr_client.hpp"
+#include "panels/effr_panel.hpp"
+#include "api/rrp_client.hpp"
+#include "panels/rrp_panel.hpp"
+#include "api/rp_client.hpp"
+#include "panels/rp_panel.hpp"
 
 // Forward declarations
 extern LRESULT ImGui_ImplWin32_WndProcHandler(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam);
@@ -137,6 +143,16 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE, PWSTR, int)
     SOFRClient sofr("2025-10-10", "2025-10-17");
 	sofr.fetch();
 
+    EFFRClient effr("2025-10-10", "2025-10-17");
+    effr.fetch();
+
+    RRPClient rrp;
+    rrp.fetchLatest(20);
+
+    RPClient rp;
+    rp.fetchLatest(20);
+    
+
     // Main
     bool done = false;
     while (!done)
@@ -157,7 +173,7 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE, PWSTR, int)
         ImGui::NewFrame();
 
         // Docking Setup
-		static ImGuiDockNodeFlags dockspace_flags = ImGuiDockNodeFlags_None;
+        static ImGuiDockNodeFlags dockspace_flags = ImGuiDockNodeFlags_None;
 		ImGuiWindowFlags window_flags = ImGuiWindowFlags_MenuBar | ImGuiWindowFlags_NoDocking;
 		ImGui::SetNextWindowPos(ImVec2(0.0f, 0.0f));
         ImGui::SetNextWindowSize(io.DisplaySize);
@@ -173,6 +189,15 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE, PWSTR, int)
 
         // SOFR Panel
 		renderSOFRPanel(sofr);
+
+        // EFFR Panel
+        renderEFFRPanel(effr);
+
+        // RRP Panel
+        renderRRPPanel(rrp);
+
+        // RP Panel
+        renderRPPanel(rp);
 
         // Example panel
 		ImGui::Begin("Example Panel");

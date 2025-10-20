@@ -1,0 +1,3 @@
+C:/C++/FedData/build/_deps/curl-subbuild/CMakeFiles/curl-populate.dir
+C:/C++/FedData/build/_deps/curl-subbuild/CMakeFiles/ALL_BUILD.dir
+C:/C++/FedData/build/_deps/curl-subbuild/CMakeFiles/ZERO_CHECK.dir

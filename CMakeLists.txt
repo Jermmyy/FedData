@@ -39,7 +39,8 @@ src/main.cpp
 src/api/sofr_client.cpp 
 src/panels/sofr_panel.hpp 
 src/panels/sofr_panel.cpp
-)
+src/api/effr_client.cpp 
+src/panels/effr_panel.cpp "src/api/rrp_client.cpp" "src/panels/rrp_panel.cpp" "src/api/rp_client.cpp" "src/panels/rp_panel.cpp")
 
 set_target_properties(fed_terminal PROPERTIES
     WIN32_EXECUTABLE ON

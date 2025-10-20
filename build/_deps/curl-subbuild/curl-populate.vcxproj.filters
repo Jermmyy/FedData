@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\C++\FedData\build\_deps\curl-subbuild\CMakeFiles\9755124e951ac29cf50d99897d7023bc\curl-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\C++\FedData\build\_deps\curl-subbuild\CMakeFiles\9755124e951ac29cf50d99897d7023bc\curl-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\C++\FedData\build\_deps\curl-subbuild\CMakeFiles\9755124e951ac29cf50d99897d7023bc\curl-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\C++\FedData\build\_deps\curl-subbuild\CMakeFiles\9755124e951ac29cf50d99897d7023bc\curl-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\C++\FedData\build\_deps\curl-subbuild\CMakeFiles\9755124e951ac29cf50d99897d7023bc\curl-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\C++\FedData\build\_deps\curl-subbuild\CMakeFiles\9755124e951ac29cf50d99897d7023bc\curl-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\C++\FedData\build\_deps\curl-subbuild\CMakeFiles\9755124e951ac29cf50d99897d7023bc\curl-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\C++\FedData\build\_deps\curl-subbuild\CMakeFiles\9755124e951ac29cf50d99897d7023bc\curl-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\C++\FedData\build\_deps\curl-subbuild\CMakeFiles\2db371ab7025573845f98c1c81e4c683\curl-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\C++\FedData\build\_deps\curl-subbuild\CMakeFiles\1bb1956c6d488ac6335e465e495b794a\curl-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\C++\FedData\build\_deps\curl-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\C++\FedData\build\_deps\curl-subbuild\CMakeFiles\curl-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{349D9E68-D714-32AE-921D-2905BFEFCBA4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

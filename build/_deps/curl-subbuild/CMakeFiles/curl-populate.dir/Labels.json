@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/C++/FedData/build/_deps/curl-subbuild/CMakeFiles/curl-populate"
+		},
+		{
+			"file" : "C:/C++/FedData/build/_deps/curl-subbuild/CMakeFiles/1bb1956c6d488ac6335e465e495b794a/curl-populate.rule"
+		},
+		{
+			"file" : "C:/C++/FedData/build/_deps/curl-subbuild/CMakeFiles/2db371ab7025573845f98c1c81e4c683/curl-populate-complete.rule"
+		},
+		{
+			"file" : "C:/C++/FedData/build/_deps/curl-subbuild/CMakeFiles/9755124e951ac29cf50d99897d7023bc/curl-populate-build.rule"
+		},
+		{
+			"file" : "C:/C++/FedData/build/_deps/curl-subbuild/CMakeFiles/9755124e951ac29cf50d99897d7023bc/curl-populate-configure.rule"
+		},
+		{
+			"file" : "C:/C++/FedData/build/_deps/curl-subbuild/CMakeFiles/9755124e951ac29cf50d99897d7023bc/curl-populate-download.rule"
+		},
+		{
+			"file" : "C:/C++/FedData/build/_deps/curl-subbuild/CMakeFiles/9755124e951ac29cf50d99897d7023bc/curl-populate-install.rule"
+		},
+		{
+			"file" : "C:/C++/FedData/build/_deps/curl-subbuild/CMakeFiles/9755124e951ac29cf50d99897d7023bc/curl-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/C++/FedData/build/_deps/curl-subbuild/CMakeFiles/9755124e951ac29cf50d99897d7023bc/curl-populate-patch.rule"
+		},
+		{
+			"file" : "C:/C++/FedData/build/_deps/curl-subbuild/CMakeFiles/9755124e951ac29cf50d99897d7023bc/curl-populate-test.rule"
+		},
+		{
+			"file" : "C:/C++/FedData/build/_deps/curl-subbuild/CMakeFiles/9755124e951ac29cf50d99897d7023bc/curl-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"curl-populate"
+		],
+		"name" : "curl-populate"
+	}
+}

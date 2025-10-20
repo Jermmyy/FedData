@@ -2,7 +2,7 @@
 #include <string>
 #include <vector>
 
-struct RateValue {
+struct SOFRValue {
 	std::string date;
 	double value;
 };
@@ -14,10 +14,10 @@ public:
     }
 
     void fetch();                      // fetches data from NY Fed
-    const std::vector<RateValue>& data() const { return rates; }
+    const std::vector<SOFRValue>& data() const { return rates; }
 
 private:
     std::string startDate;
     std::string endDate;
-    std::vector<RateValue> rates;
+    std::vector<SOFRValue> rates;
 };
